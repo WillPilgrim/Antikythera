@@ -1,4 +1,4 @@
-# Antikythera
+# Lego Antikythera Device
 
 Project to analyse, document and build the Antikythera device originally conceived and built by Andrew Carrol.
 
