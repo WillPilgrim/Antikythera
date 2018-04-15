@@ -10,3 +10,7 @@ Second: Reverse engineer the mechanics and construct a model in Lego software (L
 Third: Build instructions in LPub3D and publish to Rebrickable.com (see https://rebrickable.com/mocs/MOC-1523/WillPilgrim/antikythera-device/#comments)
 Fourth: Buy parts
 Fifth: Construct!
+
+Resources:
+* http://acarol.woz.org/antikythera_mechanism.html A summary of what the device does and some of the calculations involved
+
