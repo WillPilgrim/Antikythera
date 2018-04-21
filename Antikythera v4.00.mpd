@@ -846,7 +846,7 @@
 0 !LPUB CALLOUT PLACEMENT RIGHT CENTER ASSEM OUTSIDE -0.189504 0.399472
 0 !LPUB CALLOUT END
 0 !LPUB CALLOUT BEGIN
-1 1 -230 -40 -30 -1 0 0 0 1 0 0 0 -1 43093.ldr
+1 1 -230 -40 -50 -1 0 0 0 1 0 0 0 -1 43093.ldr
 1 1 -230 -40 -250 -1 0 0 0 1 0 0 0 -1 43093.ldr
 0 !LPUB CALLOUT POINTER BOTTOM 0.087 0.611 0.464 0
 0 !LPUB CALLOUT POINTER BOTTOM_RIGHT 0.869 0.327 0
@@ -1743,7 +1743,8 @@
 0 Name: ak rtf.ldr
 0 Author: Sean Turner [WillPilgrim]
 0 !LPUB MULTI_STEP BEGIN
-0 !LPUB INSERT TEXT "Right Top Front (RTF) calculator - multiply by ?, divide by ?" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.332342 0.0572783
+0 !LPUB MULTI_STEP PLACEMENT CENTER PAGE INSIDE 0.000783699 0
+0 !LPUB INSERT TEXT "Right Top Front (RTF) calculator - RTB drives the Moon,\n				                                     RBF divided by 25 drives Sun,\n                                                         RBF divided by 20 is sent below" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.197212 0.0186448
 0 !LPUB ASSEM MODEL_SCALE 1.800
 0 !LPUB CALLOUT BEGIN ROTATED
 1 0 0 0 -40 0 0 1 -1 0 0 0 -1 0 double cross beam 15.ldr
@@ -1927,7 +1928,7 @@
 0 Name: ak rbf.ldr
 0 Author: Sean Turner [WillPilgrim]
 0 !LPUB MULTI_STEP BEGIN
-0 !LPUB INSERT TEXT "Right Bottom Front (RBF) calculator - multiply by ?, divide by ?" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.332342 0.0572783
+0 !LPUB INSERT TEXT "Right Bottom Front (RBF) calculator - multiplies input from above (years) by 2 and sends output below" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.0976106 0.040424
 0 !LPUB ASSEM MODEL_SCALE 1.800
 0 !LPUB CALLOUT BEGIN ROTATED
 1 16 0 0 0 0 0 -1 -1 0 0 0 1 0 double cross beam 15.ldr
@@ -2205,7 +2206,7 @@
 0 Name: ak ltf.ldr
 0 Author: Sean Turner [WillPilgrim]
 0 !LPUB MULTI_STEP BEGIN
-0 !LPUB INSERT TEXT "Left Top Front (LTF) calculator - multiply by ?, divide by ?" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.349583 0.0672524
+0 !LPUB INSERT TEXT "Left Top Front (LTF) calculator - LTB drives the Saros dial, \n                                                      LTB divided by 4 is sent below" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.233009 0.0312513
 0 !LPUB ASSEM MODEL_SCALE 1.800
 0 !LPUB CALLOUT BEGIN ROTATED
 1 0 -140 0 -10 0 1 0 0 0 -1 -1 0 0 single cross beam 15.ldr
@@ -2339,7 +2340,7 @@
 0 Left Bottom Front
 0 Name: ak lbf.ldr
 0 Author: Sean Turner [WillPilgrim]
-0 !LPUB INSERT TEXT "Left Bottom Front (LBF) calculator - multiply by ?, divide by ?" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.318235 0.0539536
+0 !LPUB INSERT TEXT "Left Bottom Front (LBF) calculator - multiply by 47, divide by 25" "Arial,42,-1,255,75,0,0,0,0,0" "Black" OFFSET 0.271769 0.0465764
 0 !LPUB ASSEM MODEL_SCALE 1.800
 0 !LPUB MULTI_STEP BEGIN
 1 0 -160 20 -150 -1 0 0 0 -1 0 0 0 1 32278.dat
